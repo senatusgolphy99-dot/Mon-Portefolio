@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Golphy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <p>Je suis Golphy, développeur web débutant.</p>
+      <a href="#projets" class="cta">Voir mes projets</a>
+    </section>
+
+    <section id="apropos">
+      <h2>À propos</h2>
+      <p>je suis un développeur web débutant passionné par la création de sites web responsives et intuitifs.</p>
+    </section>
+    <img src="../SENATUS_GolphyAldoKarlevens_ProjetFinal_Semaine6.zip/assets-image/image.jpeg" alt="Developpeur web" srcset="">
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML5 / CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Figma</li>
+        <li>Design</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+      <div class="card">Portfolio v1</div>
+      <div class="card">To-do accessible</div>
+      <div class="card">Meteo locale</div>
+      <div class="card">Blog statique</div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" required>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+      </form>
+      <p id="feedback"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Golphy</p>
+  </footer>
+
+  <script src="js-app.js" defer></script>
+</body>
+</html>
